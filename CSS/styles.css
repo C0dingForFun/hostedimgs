@@ -39,5 +39,14 @@ aside + p{
     width:600px;
     text-transform: uppercase;
     background-image: url('./Images/Pic.jpg');
-    
+    background-size: cover;
+    color:transparent;
 }
+
+p ~ table{
+    border:1ch beige solid;
+}
+
+
+/* transition: transform 1s */
+/* transition: transform cubic('')*/
